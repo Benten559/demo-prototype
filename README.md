@@ -12,5 +12,15 @@ The basics
 * $env:FLASK_APP = "app"
 * $env:FLASK_ENV = "development"
 * flask run
-#To Do:
+
+#### Dependency
+* pip install qrcode
+* *To Do:
 * Create .env file to remove manually configuration of environment variables within powershell
+
+##### Secure tunnel (step by step)
+* download/install ngrok
+* CMD-Powershell : ngrok http 5000
+* Copy generated port forwarding address into 'input_data' variable of genQR_local.py
+* CMD-Powershell python genQR_local.py 
+* scan QR, verify that landing_menu.html renders
