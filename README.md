@@ -15,6 +15,7 @@ The basics
 
 #### Dependency
 * pip install qrcode
+* pip install PilImage
 * *To Do:
 * Create .env file to remove manually configuration of environment variables within powershell
 
