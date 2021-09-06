@@ -1,5 +1,18 @@
 # demo-prototype
-The basics
+All commands written with directions were used with Windows Powershell
+Make sure you have flask installed.
+
+
+* Mobile/Web 
+  I've been testing this by using my machine to host it. It's quick for trying it out on my phone.
+  Port forwarding of this application is handled with ngrok
+  During this development phase ngrok can handle 2 hours of serving files from your local 5000 with simple traffic restriction.
+
+* Starting it up, **flask run**
+  Once all dependencies are installed, to use the framework you begin the development server with the cmd.
+  If all the environment variables are set correctly it will target the file app.py and its styling/webpage folders.
+
+
 
 ## The landing page structure
 * This assumes that the QR code carries the unique identifier of an asset
